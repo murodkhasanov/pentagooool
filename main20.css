@@ -1,0 +1,776 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(199, 196, 196);
+    padding-top: 20px;
+    font-family:'Arial';
+}
+
+.dad {
+    background-color: rgb(255, 255, 255);
+    width: 1250px;
+    height: 5600px;
+    margin: 0 auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+   
+}
+
+.nom1 {
+    background-color: rgb(83, 143, 106);
+    width: 1250px;
+    height: 55px;
+}
+.nom1>img {
+    margin: 11px 35px;
+
+}
+.select1 {
+    width: 150px;
+    height: 35px;
+    background: #c2bdbd;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+.select1>img {
+    position: relative;
+    top: 4px;
+    border-radius: 50%;
+}
+
+body .pokomen .menu-itme {
+    width: 221px;
+    height: 25px;
+    background-color: #ddddda;
+    float: left;
+    border: none;
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin: 20px 9px;
+}
+
+.gridpoke {
+    background-color: rgb(255, 255, 255);
+    width: 1200px;
+    height: 1px;
+    display: grid;
+    grid-row: auto auto auto auto;
+    position: relative;
+    left: 28px;
+}
+
+#btnn1>img,
+#btnn2>img,
+#btnn3>img,
+#btnn4>img,
+#btnn5>img {
+    width: 20px;
+    height: 20px;
+}
+
+.butt {
+    width: 1188px;
+    height: 38px;
+    background: #c2bdbd;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: 32px;
+    border-radius: 8px;
+}
+
+.photo {
+    width: 17px;
+    height: 17px;
+    margin-top: 5px;
+    margin-left: 7px;
+}
+
+.foto {
+    width: 22px;
+    height: 22px;
+    position: relative;
+    bottom: 69px;
+    left: 195px;
+}
+
+.barselon {
+    position: relative;
+    left: 30px;
+    bottom: 20px;
+    font-size: 12px;
+}
+
+.liver {
+    position: relative;
+    left: 140px;
+    bottom: 49px;
+    font-size: 12px;
+}
+
+.shot {
+    font-size: 12px;
+    position: relative;
+    left: 95px;
+    bottom: 34px;
+}
+
+.time {
+    font-size: 7px;
+    position: relative;
+    bottom: 68px;
+    left: 5px;
+    color: #969090;
+}
+
+.sel1 {
+    width: 150px;
+    height: 35px;
+    background: #c2bdbd;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+.sel1>img {
+    position: relative;
+    top: 4px;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+
+.nav {
+    width: 1188px;
+    height: 38px;
+    background: #c2bdbd;
+    border: none;
+    cursor: pointer;
+    margin-top: 140px;
+    margin-left: 32px;
+    border-radius: 8px;
+}
+
+body .narimen .menu-item {
+    width: 221px;
+    height: 25px;
+    background-color: #ddddda;
+    float: left;
+    border: none;
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin: 20px 9px;
+}
+
+.gridnari {
+    background-color: rgb(255, 255, 255);
+    width: 1200px;
+    height: 1px;
+    display: grid;
+    grid-row: auto auto auto auto;
+    position: relative;
+    left: 28px;
+}
+
+.photos {
+    width: 17px;
+    height: 17px;
+    margin-top: 5px;
+    margin-left: 7px;
+}
+
+.fotos {
+    width: 22px;
+    height: 22px;
+    position: relative;
+    bottom: 69px;
+    left: 195px;
+}
+
+.bars {
+    position: relative;
+    left: 30px;
+    bottom: 20px;
+    font-size: 12px;
+}
+
+.liv {
+    position: relative;
+    left: 140px;
+    bottom: 49px;
+    font-size: 12px;
+}
+
+.shots {
+    font-size: 12px;
+    position: relative;
+    left: 95px;
+    bottom: 34px;
+}
+
+.times {
+    font-size: 7px;
+    position: relative;
+    bottom: 65px;
+    left: 4px;
+    color: #969090;
+}
+
+.display {
+    background-color: rgb(255, 255, 255);
+    width: 1300px;
+    height: 1000px;
+    margin-top: 160px;
+}
+
+.file {
+    background-color: rgb(255, 255, 255);
+    width: 900px;
+    height: 900px;
+    position: relative;
+    left: 35px;
+    border-radius: 7px;
+}
+
+.rasm1>img {
+    width: 860px;
+    height: 420px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.rasm2>img,
+.rasm3>img,
+.rasm4>img,
+.rasm5>img,
+.rasm6>img,
+.rasm7>img {
+    width: 275px;
+    height: 180px;
+    border-radius: 7px;
+}
+
+.royhat {
+    background-color: rgb(255, 255, 255);
+    width: 340px;
+    height: 810px;
+    position: relative;
+    left: 906px;
+    bottom: 900px;
+    border-radius: 7px;
+}
+
+.rasm1>h2 {
+    position: relative;
+    top: -170px;
+    left: 30px;
+    color: white;
+}
+
+.rasm1>h5 {
+    position: relative;
+    left: 31px;
+    bottom: 150px;
+    color: white;
+}
+
+.rasm2>img {
+    position: relative;
+    /* left: 30px; */
+    bottom: 78px;
+}
+
+.rasm2>h4 {
+    position: relative;
+    left: 20px;
+    bottom: 160px;
+    color: white;
+}
+
+.rasm3>img {
+    position: relative;
+    left: 291px;
+    bottom: 298px;
+}
+
+.rasm4>img {
+    position: relative;
+    left: 583px;
+    bottom: 517px;
+}
+
+.rasm3>h4 {
+    position: relative;
+    left: 310px;
+    bottom: 383px;
+    color: white;
+}
+
+.rasm4>h4 {
+    position: relative;
+    left: 620px;
+    bottom: 605px;
+    color: white;
+}
+
+.rasm5>img {
+    position: relative;
+    /* left: 30px; */
+    bottom: 543px;
+}
+
+.rasm6>img {
+    position: relative;
+    left: 291px;
+    bottom: 761px;
+}
+
+.rasm7>img {
+    position: relative;
+    left: 583px;
+    bottom: 980px;
+}
+
+.rasm5>h4 {
+    position: relative;
+    left: 20px;
+    bottom: 630px;
+    color: white;
+}
+
+.rasm6>h4 {
+    position: relative;
+    left: 320px;
+    bottom: 845px;
+    color: white;
+}
+
+.rasm7>h4 {
+    position: relative;
+    left: 620px;
+    bottom: 1065px;
+    color: rgb(255, 255, 255);
+}
+
+.jadval {
+    width: 320px;
+    height: 45px;
+    background-color: #ccccca;
+    border-radius: 7px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.jadval>h2 {
+    padding: 10px 20px;
+}
+
+.itali {
+    background-color: #ccccca;  
+    width: 320px;
+    height: 36px;
+    border-radius: 7px;
+    border: 0.5px solid #a8a6a6;
+}
+
+.itali>h4 {
+    padding: 10px 20px;
+}
+
+.no {
+    background-color: #ccccca;
+    width: 320px;
+    height: 33px;
+}
+
+.no>span {
+    position: relative;
+    left: 95px;
+    bottom: 10px;
+}
+
+.no>p {
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+
+body .barsan .menu-itemm {
+    width: 320px;
+    height: 35px;
+    background-color: #ccccca;
+    float: left;
+    margin-top: 2px;
+    border: none;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.shotter {
+    position: relative;
+    left: 25px;
+    top: 10px;
+}
+
+.photot {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 55px;
+    bottom: 5px;
+}
+
+.barsek {
+    position: relative;
+    left: 97px;
+    bottom: 27px;
+}
+
+.no>h6 {
+    position: relative;
+    left: 264px;
+    bottom: 23px;
+}
+
+.no>h5 {
+    position: relative;
+    left: 290px;
+    bottom: 36px;
+}
+
+.timen {
+    position: relative;
+    left: 264px;
+    bottom: 38px;
+}
+
+.timesh {
+    position: relative;
+    left: 290px;
+    bottom: 50px;
+}
+
+.songi {
+    background-color: rgb(43, 121, 69);
+    width: 1190px;
+    height: 45px;
+    position: relative;
+    left: 34px;
+    bottom: 150px;
+    border-radius: 7px;
+}
+
+.songi>h3 {
+    color: white;
+    position: relative;
+    right: 310px;
+    top: 10px;
+}
+
+body .mohi .menu-itemmm {
+    width: 270px;
+    height: 275px;
+    background-color: #e4e2e2;
+    float: left;
+    margin: 10px 19px;
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 800px;
+}
+
+body .mohi .menu-itemmm img {
+    width: 256px;
+    height: 153px;
+    float: left;
+    border-radius: 6px;
+    border: none;
+    margin: 7px;
+}
+.desc {
+    font-size: 10px;
+    color: rgb(66, 66, 66);
+    margin: 7px;
+}
+.hour {
+    color: #353434;
+    font-size: 9px;
+    margin: 15px 7px;
+}
+.salom {
+    /* background-color: aqua; */
+    width: 1280px;
+    height: 2000px;
+    display: grid;
+    grid-row: auto auto auto auto;
+    position: relative;
+    left: 10px;
+}
+.textt {
+    margin: 7px;
+}
+.barcha {
+    background-color: rgb(151, 153, 152);
+    width: 1190px;
+    height: 45px;
+    position: relative;
+    left: 32px;
+    bottom: 1270px;
+    border-radius: 7px; 
+}
+.barcha>h2 {
+    margin:  0 auto;
+    font-size: 20px;
+    position: relative;
+    left: 550px;
+    top: 10px;
+}
+.barcha2 {
+    background-color: rgb(43, 121, 69);
+    width: 1190px;
+    height: 45px;
+    position: relative;
+    left: 34px;
+    bottom: 1210px;
+    border-radius: 7px;
+    font-size: 15px;
+}
+.barcha2>h2 {
+    position: relative;
+    left: 30px;
+    top: 8px;
+}
+
+.alaykum {
+    /* background-color: aqua; */
+    width: 1280px;
+    height: 100px;
+    display: grid;
+    grid-row: auto auto auto auto;
+    position: relative;
+    left: 12px;
+}
+
+body .tamom .menu-itemmmm {
+    width: 270px;
+    height: 275px;
+    background-color: #e4e2e2;
+    float: left;
+    margin: 10px 19px;
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 1150px;
+}
+
+body .tamom .menu-itemmmm img {
+    width: 256px;
+    height: 153px;
+    float: left;
+    border-radius: 6px;
+    border: none;
+    margin: 7px;
+}
+
+.texttt {
+    margin: 7px;
+}
+
+.barcha3 {
+    background-color: rgb(173, 175, 174);
+    width: 1190px;
+    height: 45px;
+    position: relative;
+    left: 32px;
+    bottom: 290px;
+    border-radius: 7px; 
+}
+.barcha3>h2 {
+    margin:  0 auto;
+    font-size: 20px;
+    position: relative;
+    left: 550px;
+    top: 10px;
+}
+.footer {
+    background-color: rgb(83, 143, 106);
+    width: 1250px;
+    height: 430px;
+    position: relative;
+    bottom: 220px;
+}
+.footer>img {
+    width: 130px;
+    height: 50px;
+    position: relative;
+    left: 40px;
+    top: 50px;
+}
+.div1 {
+    background-color: rgb(83, 143, 106);
+    width: 150px;
+    height: 220px;
+    position: relative;
+    left: 760px;
+    bottom: 20px;
+}
+.div2 {
+    background-color:rgb(83, 143, 106);
+    width: 150px;
+    height: 220px;
+    position: relative;
+    left: 530px;
+    bottom: 240px;
+}
+.div3 {
+    background-color: rgb(83, 143, 106);
+    width: 150px;
+    height: 220px;
+    position: relative;
+    left: 300px;
+    bottom: 460px;
+}
+hr {
+    width: 1200px;
+    position: relative;
+    bottom: 340px;
+    left: 26px;
+}
+.div3,
+.div2,
+.div1 {
+    padding: 20px;
+    color: #ffffff;
+}
+.pasi {
+    position: relative;
+    bottom: 300px;
+    left: 530px;    
+    font-size: 20px;
+    color: #ffffff;
+}
+.tarmoq>img ,
+.tarmoq1>img,
+.tarmoq2>img,
+.tarmoq3>img,
+.tarmoq4>img {
+    position: relative;
+    bottom: 500px;
+}
+.img2 {
+    background-color: #ccccca;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: relative;
+    left: 1186px;
+    bottom: 46px;
+}
+.dad>.moon {
+    background-color: #ffffff;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    position: relative;
+    left: 1180px;
+    bottom: 45px;
+}
+i{
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+    margin: 15.7px;
+    font-size: 19px;
+}
+
+/* @media only screen and (max-width: 600px) {
+    .nom1 {
+        width: 600px;
+    }
+} */
+
+
+
+/* //MOBILNIY VERSIYA */
+
+
+
+/* @media only screen and (max-width: 600px) {
+    .dad {
+        width: 500px;
+    }
+    body {
+        background-color: rgb(85, 85, 85);
+    }
+    #menue {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        background-color: rgb(0, 0, 0);
+        color: aliceblue;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        line-height: 36px;
+        text-align: center;
+        cursor: pointer;
+        z-index: 27;
+        transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1.1);
+    }
+    #menue.fa-xmark {
+        transform: rotate(-180deg);
+    }
+    .butt {
+        position: fixed;
+        top: 65px;
+        right: 25px;
+        left: 8px;
+        background-color: rgb(21, 21, 21);
+        padding: 10px 15px 10px 10px;
+        width: 459px;
+        z-index: 4;
+        transform: scale(0);
+        opacity: 0;
+        transform-origin: top right;
+        transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1.1);
+    }
+    .butt.butt-tugl {
+        transform: scale(1);
+        opacity: 1;
+    }
+    .butt .button {
+        display: block;
+        padding: 10px 70px 10px 10px;
+        text-decoration: none;
+        color: rgb(222, 222, 233);
+        font-weight: bold;
+        font-size: 15px;
+        border-radius: 5px;
+    }
+    .butt button:hover {
+        color: rgb(98, 98, 186);
+        background-color: aliceblue;
+        transition: all 1s ease;
+    }
+    /* .back {
+        background-color: black;
+        width: auto;
+        height: 80px;
+        position: relative;
+        bottom: 60px;
+        font-size: 46px;
+        color: aliceblue;
+    } */
+/* } */
